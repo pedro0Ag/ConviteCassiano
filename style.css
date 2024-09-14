@@ -1,22 +1,26 @@
 body {
-background-image: url(max.jpg);
-background-repeat: no-repeat;
-background-size: cover;
+background-image: url(planta.png);
+background-repeat: no-rept;
+background-size: coer;
 background-position: center;
 }
 
 h3{
     color: rgb(0, 0, 0);
+    font-family: fantasy;
 }
 
+.text{
+    font-family:fantasy
+}
 
 .content-header {
     flex-direction: column;
     margin: auto;
-    align-items: center;
     display: flex;
     text-align: center;
     color:rgb(0, 0, 0);
+    font-family: fantasy;
 }
 
 
@@ -28,12 +32,12 @@ h3{
 }
 
 .content-lista {
-    background-color: rgba(160, 6, 6, 0.534);
+    background-color: rgba(6, 160, 88, 0.534);
     margin-top: 50px;
     width:300px;
     border-radius: 10px;
     border: 3px solid black;
-    color: blanchedalmond;
+    color: rgb(0, 0, 0);
 }
 .content-loc{
     margin-top: 50px;
@@ -45,22 +49,23 @@ h3{
     margin-top: 30px;
     display: flex;
     justify-content: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 img {
     width: 40px;
 }
-.ooo{
+.link{
     width: 250px;
     height: 100px;
+    font-size: 19px;
 }
 
 .pes{
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 5px;
 }
 
 a{
-    color: rgb(241, 237, 237);
+    color: rgb(0, 0, 0);
 }
